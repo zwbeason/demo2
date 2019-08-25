@@ -1,0 +1,38 @@
+Git(github\gitlab)
+版本控制工具(代码管理工具) ：开源、免费
+版本控制工具(SVN)
+
+下载的官网：https://git-scm.com/
+一路next到底   
+
+全局--局部
+
+团队配合：
+	任务分解---做各自的任务---合作--->完成
+
+GIT 配置：
+	配置：1. git 连接远程 github 的账号
+	2. github 账号：github.com
+	3. 授权本台电脑可用 github 账号
+		ssh-keygen -t rsa -C "github注册的邮箱"
+	4. 配置本台电脑可使用的用户名及邮箱
+		git config --global user.name "github的用户名"
+
+		// 查看是否是自己的用户名
+		git config user.name
+
+		git config --global user.email "github的邮箱"
+
+		// 查看是否是自己的邮箱
+		git config user.email
+
+		// 远程授权验证
+		ssh -T git@github.com
+
+		Hi 你的用户名! You've successfully authenticated.....  
+		配置完成
+
+		3-4项为：只要换电脑工作，首次使用git 
+		都需要执行
+
+
